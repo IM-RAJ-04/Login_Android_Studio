@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="selamat_datang">Selamat datang</string>
+    <string name="administrator">Administrator</string>
+    <string name="copyright_senn_all_right_reserved">Copyright Senn | All Right Reserved</string>
+    <string name="mari_mulai_hari_dengan_semangat">Mari Mulai Hari Dengan Semangat</string>
+</resources>

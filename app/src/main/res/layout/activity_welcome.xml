@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/wimg2"
+        android:layout_width="208dp"
+        android:layout_height="206dp"
+        android:src="@drawable/boy"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wimg2"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        android:text="@string/selamat_datang" />
+
+    <TextView
+        android:id="@+id/wtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:text="@string/mari_mulai_hari_dengan_semangat"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

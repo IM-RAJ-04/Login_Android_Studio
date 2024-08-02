@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5F5F5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="296dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/account"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:text="@string/administrator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:text="@string/username"
+        android:layout_marginTop="90dp"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/tv1"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"
+        android:backgroundTint="@color/black"
+        tools:ignore="Autofill,LabelFor,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginTop="40dp"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_below="@id/edt1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@id/tv2"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        tools:ignore="Autofill,LabelFor,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/gray"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        app:icon="@drawable/login"
+        app:iconTint="#000000"
+        app:iconTintMode="multiply"
+        app:strokeColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/copyright_senn_all_right_reserved"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
